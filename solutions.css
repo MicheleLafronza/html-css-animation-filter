@@ -56,6 +56,15 @@
     filter: saturate(0);
 }
 
+/* esercizio 7 */
+.ex-7-img {
+    transition: all 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(0.8) contrast(1.5);
+}
+
 /* esercizio 8 */
 .ex-8-img {
     transition: all 2s;
@@ -156,4 +165,37 @@
     100% {
         right:20%;
     }
+}
+
+/* esercizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+    animation-name: ruota;
+    animation-duration: 5s;
+
+}
+
+@keyframes ruota {
+    0% {
+        left:10%;
+        top:10px
+    }
+
+    10% {
+        left:35%;
+        top:10px
+    }
+
+    20% {
+        left:72%;
+        top:10px
+    }
+    
+    30% {
+        left:72%;
+        top:10px
+    }
+
+
+
+
 }
