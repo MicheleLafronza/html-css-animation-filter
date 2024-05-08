@@ -46,3 +46,33 @@
 .ex-5-square:active {
     transform: scale(0.5);
 }
+
+/* esercizio 6 */
+.ex-6-img {
+    transition: all 0.2s;
+}
+
+.ex-6-img:hover {
+    filter: saturate(0);
+}
+
+/* esercizio 8 */
+.ex-8-img {
+    transition: all 2s;
+}
+
+.ex-8-img:hover {
+    filter: brightness(0.4) hue-rotate(140deg);
+    border-radius: 50px;
+}
+
+/* eservizio 9 */
+.ex-9-img {
+    transition: all 2s;
+}
+
+.ex-9-img:hover {
+    filter: brightness(0.4) hue-rotate(140deg);
+    border-radius: 50px;
+    transform: scale(1.5);
+}
